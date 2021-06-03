@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "60a623e91943ae490ff00af7"
+  },
+  "title": "redux-tutorial",
+  "description": "tutorial related to redux",
+  "published": true,
+  "createdAt": {
+    "$date": "2021-05-20T08:55:05.170Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-03T03:45:32.630Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a624111943ae490ff00af8"
+  },
+  "title": "first tutorial",
+  "description": "this is my first tutorial",
+  "published": false,
+  "createdAt": {
+    "$date": "2021-05-20T08:55:45.709Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-20T08:55:45.709Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b84ecd8c2688f655d38477"
+  },
+  "title": "kjdkf",
+  "description": "kdfk",
+  "published": false,
+  "createdAt": {
+    "$date": "2021-06-03T03:38:53.567Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-03T03:38:53.567Z"
+  },
+  "__v": 0
+}]

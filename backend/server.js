@@ -28,7 +28,6 @@ app.get('/tutorials', (req, res) => {
     tutorials.find()
     .then(data => res.json(data))
     .catch(err => res.status(400).json('Error: ' +err));
-
   })
 
 app.listen(3030);
