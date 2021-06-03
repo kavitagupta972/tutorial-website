@@ -3,8 +3,8 @@ const fs = require('fs');
 const app = express();
 const cors =  require('cors');
 const mongoose = require('mongoose');
-const employee = require('./model/Employee.model');
-const DB_URI = 'mongodb+srv://root:root@cluster0.qevdm.mongodb.net/employee-details';
+const tutorials = require('./model/Tutorial.model');
+const DB_URI = 'mongodb+srv://root:root@cluster0.qevdm.mongodb.net/tutorial_db';
 
 app.use(cors());
 app.use(express.json());
@@ -23,12 +23,12 @@ app.get('/', (req, res) => {
     res.send("listening to port 3000 .... ");
 })
 
-app.get('/employee', (req, res) => {
+app.get('/tutorials', (req, res) => {
 
-    employee.find()
-    .then(exercises => res.json(exercises))
+    tutorials.find()
+    .then(data => res.json(data))
     .catch(err => res.status(400).json('Error: ' +err));
 
   })
 
-app.listen(3000);
+app.listen(3030);
