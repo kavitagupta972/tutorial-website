@@ -20,7 +20,7 @@ connection.once('open', () => {
 })
 
 app.get('/', (req, res) => {
-    res.send("listening to port 3000 .... ");
+    res.send("listening to port 3030 .... ");
 })
 
 app.get('/tutorials', (req, res) => {
