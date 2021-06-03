@@ -6,3 +6,9 @@
 .form-group {
     margin-bottom: 10px;
 }
+
+.list {
+    margin: auto;
+    max-width: 650px;
+    text-align: left;
+}

@@ -36,8 +36,8 @@ const AddTutorial = () => {
                 onChange = {(event) => setDescription(event.target.value)}
             />
             </div>
-            <button className = "btn btn-success" onClick = {addTutorial}>Submit</button>
-            <button className = "btn btn-danger" onClick = {clearForm}>Reset</button>
+            <button className = "btn btn-success me-3" onClick = {addTutorial}>Submit</button>
+            <button className = "btn btn-secondary" onClick = {clearForm}>Reset</button>
 
         </div>
     )

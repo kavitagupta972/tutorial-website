@@ -1,5 +1,11 @@
+import tutorialimg from './tutorial.jpg';
 const HomePage = () => {
-    return <h1> Welcome to the world of Learning !!</h1>
+
+    return (
+    <>
+        <img src={tutorialimg} alt=" Welcome to the world of Learning !!"/>
+    </> 
+    )
 }
 
 export default HomePage;

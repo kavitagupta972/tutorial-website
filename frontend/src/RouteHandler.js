@@ -12,7 +12,7 @@ const RouteHandler = () => {
             <div className = "nav-bar">
               <NavBar/>
             </div>
-            <div className = "content-style"> 
+            <div className = "content-style "> 
             <Switch>
                 <Route path = "/" exact component = {HomePage}/>
                 <Route path = "/add" component = {AddTutorial} />
