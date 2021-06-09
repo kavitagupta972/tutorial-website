@@ -4,7 +4,7 @@ const app = express();
 const cors =  require('cors');
 const mongoose = require('mongoose');
 const tutorials = require('./model/Tutorial.model');
-const DB_URI = 'mongodb+srv://root:root@cluster0.qevdm.mongodb.net/tutorial_db';
+const DB_URI = 'mongodb+srv://root:<password>@cluster0.qevdm.mongodb.net/tutorial_db';
 
 app.use(cors());
 app.use(express.json());

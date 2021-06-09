@@ -9,6 +9,7 @@ const tutorialSchema = new schema({
 });
 
 const Tutorial = mongoose.model('tutorials', tutorialSchema);
+//other options to create model in case your collection name is not plural
 // const Tutorial = mongoose.model('mytutorial', tutorialSchema, 'mytutorial');
 // mongoose.model("Model", tutorialSchema, "tutorial")
 
