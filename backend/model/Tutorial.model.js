@@ -9,6 +9,7 @@ const tutorialSchema = new schema({
 });
 
 const Tutorial = mongoose.model('tutorials', tutorialSchema);
+// const Tutorial = mongoose.model('mytutorial', tutorialSchema, 'mytutorial');
 // mongoose.model("Model", tutorialSchema, "tutorial")
 
 module.exports = Tutorial;
